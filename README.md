@@ -2,6 +2,8 @@
 
 **GemEditor Pro** is a single-file, offline-capable web application designed for Gemological Laboratories. It allows users to generate professional, high-resolution report cards (certificates) for gemstones using the HTML5 Canvas API.
 
+DEMO LIVE { https://lakshaywalia05.github.io/reportmaker }
+
 ---
 
 ## 🚀 1. Application User Flow
