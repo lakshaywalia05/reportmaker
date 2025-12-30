@@ -97,28 +97,6 @@ High-Res Export: Downloads the canvas as JPG or PNG.
 
 Offline Mode: Works entirely in the browser without a backend server.
 
-📂 File Structure
-Since this is a single-file solution, the internal structure is:
-index.html
-├── <head>
-│   ├── Meta Tags
-│   ├── TailwindCSS (Script)
-│   ├── FontAwesome (CSS)
-│   ├── Cropper.js (CSS/Script)
-│   └── Internal <style> (Custom CSS)
-│
-└── <body>
-    ├── <header> (Top Bar)
-    ├── <main>
-    │   ├── .canvas-container (Left side preview)
-    │   └── .controls-sidebar (Right side inputs)
-    │
-    ├── #cropperModal (Hidden popup)
-    │
-    └── <script>
-        ├── const cropApp = { ... } (Cropping Logic)
-        └── const app = { ... } (Main Logic)
-
 💻 Usage
 Open: Simply double-click index.html to open it in any modern web browser (Chrome, Firefox, Edge).
 
